@@ -1,0 +1,25 @@
+{
+  "name": "video-merger-service",
+  "version": "2.0.0",
+  "private": true,
+  "description": "خدمة دمج الفيديو v2 — تنزيل مقاطع عامة ودمجها في MP4 واحد (H.264+AAC) ورفع الناتج كرابط عام. تُنشر كمشروع Vercel مستقل.",
+  "scripts": {
+    "dev": "next dev -p 3002",
+    "build": "next build",
+    "start": "next start -p 3002"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.18.0",
+    "@vercel/blob": "^1.1.0",
+    "ffmpeg-static": "^5.2.0",
+    "next": "^16.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5"
+  }
+}
